@@ -65,6 +65,7 @@ $this->faculty = array
   $this->dep[  '39' ] = array( "GL"  , "Gewerbelehrer"                        , "30" , 'anpartner' => 'LS'  );
   $this->dep[ '003' ] = array( "XLS" , "Kein Department"                      , "30" , 'anpartner' => 'LS'  );
   $this->dep[ '430' ] = array( "FLS" , "Fakultätsverwaltung LS"               , "30" , 'anpartner' => 'LS'  );
+  $this->dep[ '450' ] = array( "FTI" , "Fakultätsverwaltung TI"               , "30" , 'anpartner' => 'TI'  );
   $this->dep[  '51' ] = array( "FF"  , "Fahrzeugtechnik und Flugzeugbau"      , "50" , 'anpartner' => 'TI'  );
   $this->dep[  '52' ] = array( "IN"  , "Informatik"                           , "50" , 'anpartner' => 'TI'  );
   $this->dep[  '53' ] = array( "IE"  , "Informations- und Elektrotechnik"     , "50" , 'anpartner' => 'TI'  );
