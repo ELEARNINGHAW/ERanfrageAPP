@@ -115,7 +115,7 @@ class RenderHTML
      <td width="50px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">' . $LR["cdep_txt"]. '</td> 
      <td width="5px" style="background-color:'.$this->faculty[ $LR["ufakultaet"] ][ "color" ].'">'
   . '<a target="_blank" title="'.$LR["ufirstname"].' '.$LR["ulastname"]. ' '. $LR["ukurzel"] .'" href="'.$this->emil_URL.'/user/profile.php?id='.$LR["uid"].'">[' . $LR["udep_txt"]. '] '  .$LR["ulastname"].$LR["krzl"]. '&nbsp;</a></td> 
-     <td width="20px"><a href = "'.$_SERVER['PHP_SELF'] .'?&x=5&lr='.$LR["lrsn"].'" target="_blank" > <div class="stateNr"  style="background-color:'.$this->status[ 0 ][ "color" ] .'" title = " '.$this->status[ 0 ][ "butt" ] .' "><img src="inc/img/icon/pen.png" /></div></a></td> 
+     <td width="20px"><a href = "'.$_SERVER['PHP_SELF'] .'?&x=5&lr='.$LR["lrsn"].'" target="_blank" > <div class="stateNr"  style="background-color:'.$this->status[ 0 ][ "color" ] .'" title = " '.$this->status[ 0 ][ "butt" ] .' "><img src="inc/img/icon/Pen.png" /></div></a></td> 
      <td style="background-color:'.$this->status[ $LR["state"] ][ "color" ].'">'
   . '<a target="_blank" href="'.$this->emil_URL.'/course/view.php?id='.$LR["cid"].'">'
   . '<div style="width:500px;">'.$LR["neu"].''. $LR["cfullname"].'</a></div></td> 
