@@ -20,7 +20,8 @@ function Config()
 #if ( $_SESSION['DA'][ 'targetSem' ] ==  1 ) { $this->sem = 'WS15/16'; } 
 #else                                        { $this->sem = 'WS15/16'; } 	
 
-$this->sem = 'WS15/16';
+$this->sem = 'SS16';
+
 /* Fakuläten */
 $this->facID = array ( 10, 20, 30, 40, 50, 60, 100 ); 
 

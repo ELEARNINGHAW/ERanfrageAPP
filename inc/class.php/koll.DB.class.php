@@ -6,9 +6,9 @@ class KollDB
   var $status;
 	function KollDB(  $conf )
 	{
-		{	$this->db = new SQLite3( 'inc/DB/LR_anfrage.sqlite.s3db' );		
+		{	$this->db = new SQLite3( 'inc/DB/ER_anfrage.sqlite.s3db' );		
 			if( $this->db )
-			{  $this->log = fopen("inc/LR-Anfrage.log", "a");
+			{  $this->log = fopen("inc/ER-anfrage.log", "a");
 			}
 			else
 			{	die( "<b>KEINE Verbindung zur Datenbank möglich</b>" );

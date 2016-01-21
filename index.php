@@ -11,7 +11,7 @@ $Ko 			      = new Koll( $CFG );
 $db 				    = new KollDB( $CFG );
 $render				  = new RenderHTML( $CFG );
 
-#$Ko->checkHost(); 												    // -- Zugriff auf diese Seite nur von registrierten Refferer
+$Ko->checkHost(); 												    // -- Zugriff auf diese Seite nur von registrierten Refferer
 $Ko->decodeAuthData( $db );							  		// -- Nutzerdaten ermitteln (übergebene oder SESSION)
 $Ko->actionHandler( $db );  
 
