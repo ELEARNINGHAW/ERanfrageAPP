@@ -339,10 +339,10 @@ function rendererMailForm( $db )
 
   $ansprechPAinfo = $this->ansprechpartner[ $anspFAK ];
 
-  deb(  $this->ansprechpartner  )    ;
-  deb( $ansprechPAinfo        )    ;
+  #deb(  $this->ansprechpartner  )    ;
+  #deb( $ansprechPAinfo        )    ;
   #deb($this->ansprechpartner) ;
-  deb( $anspFAK );
+  #deb( $anspFAK );
 }
 
 function getLRnfos($LR , $sortMode2)
