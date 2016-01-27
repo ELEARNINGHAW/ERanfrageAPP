@@ -49,6 +49,7 @@ $this->faculty = array
  );
 
   $this->dep[ '20'   ] = array( "DMI"     , "Fak. Design Medien Information"                                , "20" , 'anpartner' => 'IM'  );
+  $this->dep[ '002'  ] = array( "DMI"     , "Fak. Design Medien Information"                                , "20" , 'anpartner' => 'IM'  );
   $this->dep[ '21'   ] = array( "DS"      , "Dep. Design"                                                   , "20" , 'anpartner' => 'DS'  );
   $this->dep[ '22'   ] = array( "IM"      , "Dep. Information"                                              , "20" , 'anpartner' => 'IM'  );
   $this->dep[ '23'   ] = array( "MD"      , "Dep. Medientechnik"                                            , "20" , 'anpartner' => 'MD'  );
@@ -78,6 +79,7 @@ $this->faculty = array
   $this->dep[ '3700' ] = array( "WI"      , "Dep. Wirtschaftsingenieurwesen"                                , "30" , 'anpartner' => 'LS'  );
   
   $this->dep[ '50'   ] = array( "TI"      , "Fak. Technik und Informatik"                                   , "50" , 'anpartner' => 'TI'  );
+  $this->dep[ '005'  ] = array( "TI"      , "Fak. Technik und Informatik"                                   , "50" , 'anpartner' => 'TI'  );
   $this->dep[ '51'   ] = array( "FF"      , "Dep. Fahrzeugtechnik und Flugzeugbau"                          , "50" , 'anpartner' => 'TI'  );
   $this->dep[ '52'   ] = array( "IN"      , "Dep. Informatik"                                               , "50" , 'anpartner' => 'TI'  );
   $this->dep[ '53'   ] = array( "IE"      , "Dep. Informations- und Elektrotechnik"                         , "50" , 'anpartner' => 'TI'  );
@@ -92,6 +94,7 @@ $this->faculty = array
   $this->dep[ '5500' ] = array( "ME"      , "Dep. Mechatronik"                                              , "50" , 'anpartner' => 'TI'  );
   
   $this->dep[ '60'   ] = array( "WS"      , "Fak. Wirtschaft & Soziales"                                    , "60" , 'anpartner' => 'WS'  );
+  $this->dep[ '006'  ] = array( "WS"      , "Fak. Wirtschaft & Soziales"                                    , "60" , 'anpartner' => 'WS'  );
   $this->dep[ '61'   ] = array( "PM"      , "Dep. Public Management"                                        , "60" , 'anpartner' => 'WS'  );
   $this->dep[ '62'   ] = array( "WI"      , "Dep. Wirtschaftsingenieurwesen"                                , "60" , 'anpartner' => 'WS'  );
   $this->dep[ '63'   ] = array( "PM"      , "Dep. Pflege und Management"                                    , "60" , 'anpartner' => 'WS'  );
@@ -131,11 +134,7 @@ $this->faculty = array
   $this->dep[ '1000' ] = array( "GAST"    , "HAW. Gast"                                                     , "100" , 'anpartner' => 'LS'  );
   $this->dep[ '1001' ] = array( "GAST"    , "HAW. Gast"                                                     , "100" , 'anpartner' => 'LS'  );
   $this->dep[ '001'  ] = array( "XX"      , "Dep.. Keine Department"                                        , "100" , 'anpartner' => 'LS'  );
-  $this->dep[ '002'  ] = array( "XX"      , "Dep.. Keine Department"                                        , "100" , 'anpartner' => 'LS'  );
-  $this->dep[ '003'  ] = array( "XX"      , "Dep.. Keine Department"                                        , "100" , 'anpartner' => 'LS'  );
   $this->dep[ '004'  ] = array( "XX"      , "Dep.. Keine Department"                                        , "100" , 'anpartner' => 'LS'  );
-  $this->dep[ '005'  ] = array( "XX"      , "Dep.. Keine Department"                                        , "100" , 'anpartner' => 'LS'  );
-  $this->dep[ '006'  ] = array( "XX"      , "Dep.. Keine Department"                                        , "100" , 'anpartner' => 'LS'  );
   
                                  /* W14, S14, S15, W15 */
   $this->kurskat =  array(
