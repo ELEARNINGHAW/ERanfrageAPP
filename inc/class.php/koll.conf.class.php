@@ -30,23 +30,8 @@ $this->ansprechpartner['MD'] = array ( 'name' => 'Markus Alpers'     , 'raum'  =
 $this->ansprechpartner['IM'] = array ( 'name' => 'Claudia ter Meer'  , 'raum'  => 'Finkenau 35 / Raum 265'        , 'telefon' => '(428 75) 3657',  'email' => 'claudia.terMeer@haw-hamburg.de'   ,'gender' => 'f');
 $this->ansprechpartner['DS'] = array ( 'name' => 'Patrick Surdziel'  , 'raum'  => 'Finkenau 35 / Raum F151'       , 'telefon' => '(428 75) 4830',  'email' => 'Patrick.Surdziel@haw-hamburg.de'  ,'gender' => 'm');
 $this->ansprechpartner['TI'] = array ( 'name' => 'Steven Peemöller'  , 'raum'  => 'Berliner Tor 21 / Raum 127'    , 'telefon' => '(428 75) 8611',  'email' => 'steven.peemoeller@haw-hamburg.de' ,'gender' => 'm');
-$this->ansprechpartner['WS'] = array ( 'name' => 'Christine Hoffmann', 'raum'  => 'Alexanderstrasse 1 / Raum 6.31', 'telefon' => '(428 75) 7022',  'email' => 'christine.hoffmann@haw-hamburg.de','gender' => 'f');
+$this->ansprechpartner['WS'] = array ( 'name' => 'Christine Hoffmann', 'raum'  => 'Alexanderstrasse 1 / Raum 2.06', 'telefon' => '(428 75) 7022',  'email' => 'christine.hoffmann@haw-hamburg.de','gender' => 'f');
 $this->ansprechpartner['XX'] = array ( 'name' => 'Heiko Thämlitz'    , 'raum'  => 'Bergedorf / Raum 0.42a'        , 'telefon' => '(428 75) 6312',  'email' => 'heiko.thaemlitz@haw-hamburg.de'   ,'gender' => 'm');
-
-$this->faculty = array 
-(
-  '0'   =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
-  '00'  =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
-  '01'  =>  array( "color" => "#FFFFFF" ,  "name" => "---" , "kname" => "---"  , "lname" => ""                                         , "iconlink" => "inc/img/icon/empty.png" ), 
-  '10'  =>  array( "color" => "#E0E0E0" ,  "name" => "I&O" , "kname" => "IO"   , "lname" => "Information und Organisation"             , "iconlink" => "inc/img/icon/IuO.png"   ), 
-  '20'  =>  array( "color" => "#008B95" ,  "name" => "DMI" , "kname" => "DMI"  , "lname" => "Design, Medien und Information"           , "iconlink" => "inc/img/icon/DMI.png"   ),
-	'30'  =>  array( "color" => "#E98300" ,  "name" => "LS"  , "kname" => "LS"   , "lname" => "Life Science"                             , "iconlink" => "inc/img/icon/LS.png"    ),
-  '50'  =>  array( "color" => "#0E905A" ,  "name" => "TI"  , "kname" => "TI"   , "lname" => "Technik und Informatik "                  , "iconlink" => "inc/img/icon/TI.png"    ),
- 	'60'  =>  array( "color" => "#C60C30" ,  "name" => "W&S" , "kname" => "WS"   , "lname" => "Wirtschaft & Soziales  "                  , "iconlink" => "inc/img/icon/WuS.png"   ),
- 	'100' =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
- 	'200' =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
- 	'400' =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ) 
- );
 
   $this->dep[ '20'   ] = array( "DMI"     , "Fak. Design Medien Information"                                , "20" , 'anpartner' => 'IM'  );
   $this->dep[ '002'  ] = array( "DMI"     , "Fak. Design Medien Information"                                , "20" , 'anpartner' => 'IM'  );
@@ -150,8 +135,23 @@ $this->faculty = array
                     '54'  => array( 148, 114, 167, 209, ), 
                     '55'  => array( 147, 113, 168, 210, ),   
                     '60'  => array( 137, 109, 162, 202, ),   
-                    '00'  => array( 20 , 30 , 50 , 60,  ),   
+                    '00'  => array(  20,  30,  50,  60, ),   
                    );      
+  
+  $this->faculty = array 
+(
+  '0'   =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
+  '00'  =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
+  '01'  =>  array( "color" => "#FFFFFF" ,  "name" => "---" , "kname" => "---"  , "lname" => ""                                         , "iconlink" => "inc/img/icon/empty.png" ), 
+  '10'  =>  array( "color" => "#E0E0E0" ,  "name" => "I&O" , "kname" => "IO"   , "lname" => "Information und Organisation"             , "iconlink" => "inc/img/icon/IuO.png"   ), 
+  '20'  =>  array( "color" => "#008B95" ,  "name" => "DMI" , "kname" => "DMI"  , "lname" => "Design, Medien und Information"           , "iconlink" => "inc/img/icon/DMI.png"   ),
+	'30'  =>  array( "color" => "#E98300" ,  "name" => "LS"  , "kname" => "LS"   , "lname" => "Life Science"                             , "iconlink" => "inc/img/icon/LS.png"    ),
+  '50'  =>  array( "color" => "#0E905A" ,  "name" => "TI"  , "kname" => "TI"   , "lname" => "Technik und Informatik "                  , "iconlink" => "inc/img/icon/TI.png"    ),
+ 	'60'  =>  array( "color" => "#C60C30" ,  "name" => "W&S" , "kname" => "WS"   , "lname" => "Wirtschaft & Soziales  "                  , "iconlink" => "inc/img/icon/WuS.png"   ),
+ 	'100' =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
+ 	'200' =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ), 
+ 	'400' =>  array( "color" => "#ABBADE" ,  "name" => "HAW" , "kname" => "HAW"  , "lname" => "Hochschule für Angewandte Wissenschaften" , "iconlink" => "inc/img/icon/HAW.png"   ) 
+ );
   
   $this->ok_host =  array( "www.elearning.haw-hamburg.de", "lernserver.el.haw-hamburg.de", "www.emil2-test.ls.haw-hamburg.de", "www.emil2-archiv.haw-hamburg.de", "localhost"  ); 
   

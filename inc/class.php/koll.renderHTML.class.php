@@ -32,8 +32,9 @@ class RenderHTML
 
     if ( $LR['cid'] == -1 || $LR['cid'] == 1   ) # DASHBOARD oder Startseite
     {
-  #    $out .= '<a style ="font-family:verdana; font-size:12px; text-decoration:none; padding:4px;" target="_blank" href="'.$_SERVER['PHP_SELF'] .'?x=1"><div style="background-color:#FFF; padding:15px; border: solid 1px black;">Ich möchte einen komplett neuen EMIL-Raum beantragen</div></a>';
+      # $out .= '<a style ="font-family:verdana; font-size:12px; text-decoration:none; padding:4px;" target="_blank" href="'.$_SERVER['PHP_SELF'] .'?x=1"><div style="background-color:#FFF; padding:15px; border: solid 1px black;">Ich möchte einen komplett neuen EMIL-Raum beantragen</div></a>';
     } 
+    
     else
     {
       if( $LR[ 'state' ] == 0 ||  $LR[ 'state' ] == 1 ||  $LR[ 'state' ] == 2   ) 
@@ -90,11 +91,14 @@ class RenderHTML
   <body>	
 	<a href = "'.$_SERVER['PHP_SELF'] .'?so1=1&x=9" >'; 
   
-    if ( $sortMode1 == 1 ){ $outA .= '<img src="inc/img/todo2.png" /></a>'; } else { $outA .= '<img src="inc/img/todo.png" /></a>'; } 
-        $outA .= '<a href = "'.$_SERVER['PHP_SELF'] .'?so1=2&x=9" >';
-    if ( $sortMode1 == 2 ){ $outA .= '<img src="inc/img/status2.png" /></a>'; } else { $outA .= '<img src="inc/img/status.png" /></a>'; } 
-        $outA .= '<a href = "'.$_SERVER['PHP_SELF'] .'?so1=3&x=9" >';
-    if ( $sortMode1 == 3 ){ $outA .= '<img src="inc/img/delete2.png" /></a>'; } else { $outA .= '<img src="inc/img/delete.png" /></a>'; } 
+    if ( $sortMode1 == 1 )
+    { $outA .= '<img src="inc/img/todo2.png" /></a>'; }   else { $outA .= '<img src="inc/img/todo.png" /></a>'; } 
+      $outA .= '<a href = "'.$_SERVER['PHP_SELF'] .'?so1=2&x=9" >';
+    if ( $sortMode1 == 2 )
+    { $outA .= '<img src="inc/img/status2.png" /></a>'; } else { $outA .= '<img src="inc/img/status.png" /></a>'; } 
+      $outA .= '<a href = "'.$_SERVER['PHP_SELF'] .'?so1=3&x=9" >';
+    if ( $sortMode1 == 3 )
+    { $outA .= '<img src="inc/img/delete2.png" /></a>'; } else { $outA .= '<img src="inc/img/delete.png" /></a>'; } 
 
     $outA .= '
     <a href = "'.$_SERVER['PHP_SELF'] .'?so2=20&x=9"><img src="inc/img/DMI.png" /></a>
@@ -114,9 +118,9 @@ class RenderHTML
     $outX = '
      <td width="50px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">' . $LR["cdep_txt"]. '</td> 
      <td width="5px" style="background-color:'.$this->faculty[ $LR["ufakultaet"] ][ "color" ].'">'
-  . '<a target="_blank" title="'.$LR["ufirstname"].' '.$LR["ulastname"]. ' '. $LR["ukurzel"] .'" href="'.$this->emil_URL.'/user/profile.php?id='.$LR["uid"].'">[' . $LR["udep_txt"]. '] '  .$LR["ulastname"].$LR["krzl"]. '&nbsp;</a></td> 
-     <td width="20px"><a href = "'.$_SERVER['PHP_SELF'] .'?&x=5&lr='.$LR["lrsn"].'" target="_blank" > <div class="stateNr"  style="background-color:'.$this->status[ 0 ][ "color" ] .'" title = " '.$this->status[ 0 ][ "butt" ] .' "><img src="inc/img/icon/Pen.png" /></div></a></td> 
-     <td style="background-color:'.$this->status[ $LR["state"] ][ "color" ].'">'
+  . '<a target="_blank" title="'.$LR["ufirstname"].' '.$LR["ulastname"]. ' '. $LR["ukurzel"] .'" href="'.$this->emil_URL.'/user/profile.php?id='.$LR["uid"].'">[' . $LR["udep_txt"]. '] '  .$LR["ulastname"].$LR["krzl"]. '&nbsp;</a></td>' 
+  #. ' <td width="20px"><a href = "'.$_SERVER['PHP_SELF'] .'?&x=5&lr='.$LR["lrsn"].'" target="_blank" > <div class="stateNr"  style="background-color:'.$this->status[ 0 ][ "color" ] .'" title = " '.$this->status[ 0 ][ "butt" ] .' "><img src="inc/img/icon/Pen.png" /></div></a></td> 
+  . '<td style="background-color:'.$this->status[ $LR["state"] ][ "color" ].'">'
   . '<a target="_blank" href="'.$this->emil_URL.'/course/view.php?id='.$LR["cid"].'">'
   . '<div style="width:500px;">'.$LR["neu"].''. $LR["cfullname"].'</a></div></td> 
      <td width="20px"><a href = "'.$_SERVER['PHP_SELF'] .'?a=2&x=9&lr='.$LR["lrsn"].'"> <div class="stateNr"  style="background-color:'.$this->status[ 2 ][ "color" ] .'" title = " '.$this->status[ 1 ][ "butt" ] .' "><img src="'.$this->status[ 1 ][ "iconlink" ] .'" /></div></a></td> 
@@ -125,18 +129,17 @@ class RenderHTML
      <td width="20px"><a href = "'.$_SERVER['PHP_SELF'] .'?a=4&x=9&lr='.$LR["lrsn"].'"> <div class="stateNr"  style="background-color:'.$this->status[ 4 ][ "color" ] .'" title = " '.$this->status[ 4 ][ "butt" ] .' "><img src="'.$this->status[ 4 ][ "iconlink" ] .'" /></div></a></td> 
      <td width="20px"><a href = "'.$_SERVER['PHP_SELF'] .'?a=5&x=9&lr='.$LR["lrsn"].'"> <div class="stateNr"  style="background-color:'.$this->status[ 5 ][ "color" ] .'" title = " '.$this->status[ 5 ][ "butt" ] .' "><img src="'.$this->status[ 5 ][ "iconlink" ] .'" /></div></a></td> 
      <td style=" font-size:8px; width.50px">'.$LR["changetime"] .'<br/>'  .$LR["changedate"]       .'&nbsp;</td> 
-     
-<td>'.$LR["info"]         .'&nbsp;</td>
+     <td>'.$LR["info"]         .'&nbsp;</td>
      </tr>';
 
-     if ($sortMode1 == 1 ) // Nur erledigte LR sind seperat (am Ende der Liste)
+     if ( $sortMode1 == 1 ) // Nur erledigte LR sind seperat (am Ende der Liste)
      {
        if       ( $LR["state"]  ==  1) { $out1 .= '<td width="20px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">'.++$i11.'</td>'. $outX ;  }
        else  if ( $LR["state"]  ==  4) { $out4 .= '<td width="20px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">'.++$i14.'</td>'. $outX ;  }
        else  if ( $LR["state"]  !=  5) { $out0 .= '<td width="20px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">'.++$i15.'</td>'. $outX ;  }
      }
 
-     if ($sortMode1 == 2 ) // Alle LR Statuse sind seperat 
+     if ( $sortMode1 == 2 ) // Alle LR Statuse sind seperat 
      { $out0 .= $outX ;
        if  ( $LR["state"]  ==  4 )     { $out4 .= '<td width="20px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">'.++$i24.'</td>'. $outX ; }
        if  ( $LR["state"]  ==  3 )     { $out3 .= '<td width="20px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">'.++$i23.'</td>'. $outX ; }
@@ -144,7 +147,7 @@ class RenderHTML
        if  ( $LR["state"]  ==  1 )     { $out1 .= '<td width="20px"  style="background-color:'.$this->faculty[ $LR["cfac"] ][ "color" ].'">'.++$i21.'</td>'. $outX ; }
      }
 
-     if ($sortMode1 == 3 ) // Alle LR Statuse sind seperat 
+     if ( $sortMode1 == 3 ) // Alle LR Statuse sind seperat 
      { 
        if  ( $LR["state"]  ==  5 )     { $out5 .= '<td width="20px"  style="background-color:'.$this->faculty[ $LR["cfac"]  ][ "color" ].'">'.++$i51.'</td>'.$outX  ; }
      }
@@ -156,7 +159,7 @@ class RenderHTML
   
    $out .= '<h1 style="color:#FFFFFF; background-color:'.$this->faculty[ $sortMode2  ][ "color" ].'">'.$this->faculty[ $sortMode2 ][ "name" ].'</h1>';
 
-    if ($sortMode1 == 1 )
+    if ( $sortMode1 == 1 )
     {
       $out .= '<br/><hr><h1>Todo:</h1>'; 
       $out .= '<table border ="0">';
@@ -328,9 +331,6 @@ function rendererMailForm( $db )
   {
     $anspFAK = 'XX';
   }
-  
-
-  #deb( $ER        )    ;
 
   $ER[ 'ufirstname' ];   # => Robert
   $ER[ 'ulastname'  ];   # => Heß
@@ -346,83 +346,106 @@ function rendererMailForm( $db )
 }
 
 function getLRnfos($LR , $sortMode2)
-{  
-  if ( $LR["cid"] == 1)            { $LR["neu"] = "<span style=\"font-weight:600;\">".$LR["cshortname"].": </span>"; } else { $LR["neu"] = ''; } # Komplett neu angeforderter LR hat den LR Kurznamen fett als Prefix vor den LR Namen stehen
-  if ( $LR["ufakultaet"] == "")    { $LR["ufakultaet"] = "00";                                                 }  #Alle unbekannten Fakultäten sind global HAW
+{ 
+  if ( $LR[ "ufakultaet" ] == "" )    
+  {  $LR[ "ufakultaet" ] = "00";                                                         #Alle unbekannten Fakultäten sind per default "HAW"                                      
+  } 
+   
+  if ( $LR[ "cid" ] < 3)           
+  {  $LR[ "neu" ] = "<span style=\"background-color:#FFF; font-weight:600;\"> NEU </span> ".$LR[ "cshortname" ]." : "; # Komplett neu angeforderter LR hat den LR Kurznamen fett als Prefix vor den LR Namen stehen
+     $LR[ "cfac" ]  = $LR[ "ufakultaet" ];
+  }  
+  else 
+  { $LR[ "neu" ] = ''; 
+    $LR["cfac"] = '';
 
-  ## -- Course Department als ID  --
-  $this->cdep = '00' ;
+    if ( isset( $this->faculty[ $LR[ "ccategory" ] ] ) )                        # Wenn Kurs-Category eine Fak-ID (20,30,50,60,...) ist, dann ist es die ID der Fakultät des NEUEN LR
+    { $LR["cfac"] = $LR[ "ccategory" ];
+    }
+
+    #------------------------------------------------------------------
+    foreach ( $this->kurskat as $dep => $kukatlist )
+    { if (  in_array(  $LR[ "ccategory" ]  , $kukatlist ) ) 
+      { $ret = $this->dep[ $dep ][ 2 ] ;
+      }
+    }
+
+    if ( isset( $ret ) )
+    { $LR[ "cfac" ] = $ret;
+    }
+    #------------------------------------------------------------------
+
+    if( $LR[ "cfac" ] != 20 && $LR[ "cfac" ] != 30 && $LR[ "cfac" ] != 50 && $LR[ "cfac" ] != 60 )
+    { $LR["cfac"] = '00' ;
+    }
+  } 
   
-  if ( isset( $this->faculty[ $LR[ "ccategory"      ] ] ))
-  {
-     $this->cdep = $LR[ "ccategory"      ];
+  ## -- Course Department als ID  --
+  $LR[ "cdep" ] = $this->getKursDepartment($LR);;
+  
+  if (isset ( $this->dep[ $LR[ "cdep" ] ] [ 0 ] ) )
+  { $LR[ "cdep_txt" ] = $this->dep[ $LR[ "cdep" ] ][ 0 ];                               ## -- Course Department als Text  --
   }
-  else
+  
+  elseif ( isset ( $this->faculty[ $LR[ "cdep" ] ] [ 'kname' ] ) )
+  { $LR[ "cdep_txt" ] = $this->faculty[ $LR[ "cdep" ] ][ 'kname' ];
+  }
+  
+  else  
+  { $LR[ "cdep_txt" ] = 'HAW';
+  }
+  
+  ## -- User Department als Text  --
+  if (isset ( $this->dep[ $LR[ "udepartment" ] ][ 0 ] ) )
+  { $LR[ "udep_txt" ] = $this->dep[ $LR[ "udepartment" ] ][ 0 ];
+  }
+  elseif (isset ( $this->faculty[ $LR[ "udepartment" ] ][ 'kname' ] ) )
+  { $LR[ "udep_txt" ] = $this->faculty[ $LR[ "udep" ] ] [ 'kname' ];
+  }
+  else  
+  { $LR[ "udep_txt" ] = 'HAW';
+  }
+    
+  $LR[ "lrsn" ] =  $LR[ "cshortname" ];                                           ## -- LR Kurzname  --
+  
+  $t= trim( $LR[ "ukurzel" ] );                                                 ## -- User Namenskürzel Text  --
+  if (  $t!='' ) 	{	$LR[ "krzl" ] = '/'. $t; }
+  else            { $LR[ "krzl" ] = '';      }
+   
+ return $LR;
+ }
+ 
+function getKursDepartment($LR)  
+{
+  if ( isset( $this->faculty[ $LR[ "ccategory" ] ] ) )  # FakultätsID wurde im Attribut Kurskatetorie gespeichert (geschieht nur bei neu angefordertem ER)
+  {
+    $ret = "00";
+    $cc  =  $LR[ "ccategory" ] ; #echo "<br>".$cc; deb($LR,1);
+    if ($cc == "00" OR $cc == "20" OR $cc == "30" OR $cc == "50" OR $cc == "60"  )
+    {  
+      $ret = $cc; 
+    }  
+    else
+    {  
+      foreach ( $this->kurskat as $dep => $kukatlist )
+      { #deb( $cc);deb( $kukatlist);
+        if ( $cc== 165 AND (in_array( $cc , $kukatlist ) ) ) 
+        { 
+          deb($LR,1);
+          
+          $ret = $this->dep[ $dep    ][ 2 ] ;
+        }
+      }
+    }
+    return $ret;
+  }
+  #else
   {
     foreach ( $this->kurskat as $kuka => $depa )
     { 
       if   ( in_array( $LR[ "ccategory" ], $depa ) ) {  $this->cdep = $kuka;   break; }  
     } 
   }
-  $LR["cdep"] =  $this->cdep ;
+}
 
-  #deb($LR,1) ;
-  
-  ## -- Course Department als Text  --
-  if (isset ($this->dep[$LR[ "cdep" ]][0]))
-  {  
-    $LR["cdep_txt"] = $this->dep[$LR[ "cdep" ]][0];
-  }
-  elseif (isset ($this->faculty[$LR[ "cdep" ]]['kname']))
-  {  
-    $LR["cdep_txt"] = $this->faculty[$LR[ "cdep" ]]['kname'];
-  }
-  else  
-  {  
-    $LR["cdep_txt"] = 'HAW';
-  }
-  
-  ## -- Course Fakultät als ID  --
-  if     ( isset( $this->faculty[ $LR[ "ccategory" ] ] ) )   # Wenn Kurs-Category eine Fak-ID ist, dann ist es die ID der Fakultät des NEUEN LR
-  {
-     $LR["cfac"] = $LR[ "ccategory" ];
-  }
-  elseif ( isset( $this->faculty[ $LR[ "cdep"      ] ] ) )   # Wenn Kurs-Department eine Fak-ID ist, dann ist es die ID der Fakultät
-  {
-     $LR["cfac"] = $LR[ "cdep" ];
-  }
-  else
-  {  
-    $LR["cfac"] =  $this->dep[ $LR["cdep"] ] [2];
-  }
-  
-  ## -- Course Fakultät als Text  --
-  $LR["cfac_txt"] =  $this->faculty[  $LR["cfac"] ]['kname'] ;
-  
-
-  ## -- User Department als Text  --
-  if (isset ($this->dep[$LR[ "udepartment" ]][0]))
-  {  
-    $LR["udep_txt"] = $this->dep[$LR[ "udepartment" ]][0];
-  }
-  elseif (isset ($this->faculty[$LR[ "udepartment" ]]['kname']))
-  {  
-    $LR["udep_txt"] = $this->faculty[$LR[ "udep" ]]['kname'];
-  }
-  else  
-  {  
-    $LR["udep_txt"] = 'HAW';
-  }
-
-  ## -- User Namenskürzel Text  --
-  $t= trim($LR["ukurzel"]);
-  if (  $t!='' ) 	{	$LR["krzl"] = '/'.$LR["ukurzel"];  }
-  else             { $LR["krzl"] = '';  }
-   
-  ## -- LR Kurzname  --
-  $LR["lrsn"] = ($LR["cshortname"]);
-
- if( $LR["cfac"] != 20 && $LR["cfac"] != 30 && $LR["cfac"] != 50 && $LR["cfac"] != 60 )  $LR["cfac"] = '00' ;
- return $LR;
- }
 }

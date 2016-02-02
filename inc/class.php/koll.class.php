@@ -16,14 +16,17 @@ class Koll
   }
   
   function checkHost()
-  {
+  {  
 	  if  ( isset ($_SERVER['HTTP_REFERER' ] ) )                
     {   $host1 = explode('/', $_SERVER['HTTP_REFERER']);  
         if ( ! in_array( $host1[2], $this->ok_host ) )  {  die("<div style='text-align:center;'><h1>ACCESS ERROR<h1><h3>Unzul&auml;ssiger Zugriff!</h3><a href=\"javascript:window.back()\">Zur&uuml;ck</a></div>"); }
     }
     else
-    {  header("Location:index.html");
-       die("<div style='text-align:center;'><h1>ACCESS ERROR<h1><h3>Unzul&auml;ssiger Zugriff!</h3><a href=\"javascript:window.back()\">Zur&uuml;ck</a></div>"); 
+    {  if( $_SERVER['SERVER_NAME' ] != 'localhost' )
+      {      
+         header("Location:index.html");
+         die("<div style='text-align:center;'><h1>ACCESS ERROR<h1><h3>Unzul&auml;ssiger Zugriff!</h3><a href=\"javascript:window.back()\">Zur&uuml;ck</a></div>"); 
+      }
     }
   }
 	
@@ -91,20 +94,7 @@ class Koll
     else                                                                                     
     { $_SESSION[ 'LR' ][ 'state' ] = 0; }
   }
-  
-  /*  UNUSED
-	function getUserLRList(   )
-	{
-  	 $cli = rawurldecode( base64_decode( $_GET[ 'cli' ] ) );
-     $cl  = explode( '###' ,  $cli);
-
-     foreach ( $cl as $c )     { $ret[]  = explode( '___' ,  $c);    }
-
-     if ( !isset ( $ret[ count ( $ret ) - 1  ][ 1 ]  ) ) { unset ( $ret[ count ( $ret ) - 1  ] ); } # Entfernt letzten Datensatz, da ohne Informationen 
-
-     return $ret;
-	}
-	*/
+ 
  
 	function actionHandler( $db)
 	{   
