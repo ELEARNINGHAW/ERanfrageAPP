@@ -1,0 +1,389 @@
+ -update status- , Admin User , 21.01.2016 , 17:03:39 , ANGEFORDERT , LS..GW.S15 ADD
+ -insert new   - , Admin User , 21.01.2016 , 17:03:40 , ANGEFORDERT , ER1
+ -insert new   - , Admin User , 21.01.2016 , 17:04:08 , ANGEFORDERT , AXX
+ -update status- , Admin User , 21.01.2016 , 17:50:41 , STORNIERT , ER1
+ -update status- , Admin User , 21.01.2016 , 17:50:41 , STORNIERT , AXX
+ -update status- , Admin User , 21.01.2016 , 18:09:44 , STORNIERT , AXX
+ -update status- , Admin User , 21.01.2016 , 18:09:45 , STORNIERT , AXX
+ -update status- , Admin User , 25.01.2016 , 19:09:00 , ANGEFORDERT , AXX
+ -update status- , Admin User , 25.01.2016 , 19:09:01 , STORNIERT , AXX
+ -update status- , Admin User , 25.01.2016 , 19:09:01 , ANGEFORDERT , ER1
+ -update status- , Admin User , 25.01.2016 , 19:09:02 , STORNIERT , ER1
+ -update status- , Admin User , 25.01.2016 , 19:09:05 , ANGEFORDERT , ER1
+ -update status- , Admin User , 25.01.2016 , 19:09:06 , STORNIERT , ER1
+ -update status- , Admin User , 25.01.2016 , 19:09:06 , ANGEFORDERT , ER1
+ -update status- , Admin User , 25.01.2016 , 19:09:07 , STORNIERT , ER1
+ -update status- ,   , 02.02.2016 , 13:47:27 , STORNIERT , WS..WI.W15 ICM_BABWL
+ -update status- ,   , 02.02.2016 , 14:21:49 , GELÖSCHT , LeLo
+ -update status- ,   , 02.02.2016 , 14:22:12 , GELÖSCHT , WS.PM.IO DoL
+ -update status- ,   , 02.02.2016 , 14:22:24 , GELÖSCHT , FBRTP
+ -update status- ,   , 02.02.2016 , 14:22:44 , GELÖSCHT , WS..WI.IO ADW_WI
+ -update status- ,   , 02.02.2016 , 14:22:52 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:24:24 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:24:46 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:25:04 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:25:59 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:26:01 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:26:20 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:26:33 , GELÖSCHT , GCP_OET
+ -update status- ,   , 02.02.2016 , 14:26:43 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:26:45 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:27:48 , GELÖSCHT , INFO_PM
+ -update status- ,   , 02.02.2016 , 14:28:07 , GELÖSCHT , AGKS
+ -update status- ,   , 02.02.2016 , 14:28:58 , GELÖSCHT , WS.IO.XX wWBPUMa
+ -update status- ,   , 02.02.2016 , 14:29:03 , GELÖSCHT , WS.IO.XX wWBPUMa
+ -update status- ,   , 02.02.2016 , 14:29:07 , GELÖSCHT , WS..WI.S16 GBWL BSCAIM
+ -update status- ,   , 02.02.2016 , 14:29:12 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:29:13 , GELÖSCHT , Dokumente
+ -update status- ,   , 02.02.2016 , 14:29:15 , GELÖSCHT , Dokumente
+ -update status- ,   , 19.02.2016 , 13:46:51 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:47:06 , ANGEFORDERT , DMI.DS.S15 MM
+ -update status- ,   , 19.02.2016 , 13:47:09 , In BEARBEITUNG , DMI.DS.S15 MM
+ -update status- ,   , 19.02.2016 , 13:47:12 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:47:13 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:47:26 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:47:27 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:47:28 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:47:29 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:49:21 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:49:37 , ANGEFORDERT , DMI.DS.S15 PC
+ -update status- ,   , 19.02.2016 , 13:49:40 , In BEARBEITUNG , DMI.DS.S15 PC
+ -update status- ,   , 19.02.2016 , 13:50:28 , ANGEFORDERT , DMI.DS.W15 TW
+ -update status- ,   , 19.02.2016 , 13:50:30 , In BEARBEITUNG , DMI.DS.W15 TW
+ -update status- ,   , 19.02.2016 , 13:50:32 , ANGEFORDERT , DMI.DS.W15 TW
+ -update status- ,   , 19.02.2016 , 13:50:33 , In BEARBEITUNG , DMI.DS.W15 TW
+ -update status- ,   , 19.02.2016 , 13:50:42 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:50:43 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:52:48 , In BEARBEITUNG , Defilee 1: Modeschöpfer/innen der 1850er-1930er Jahre
+ -update status- ,   , 19.02.2016 , 13:52:50 , ANGEFORDERT , Defilee 1: Modeschöpfer/innen der 1850er-1930er Jahre
+ -update status- ,   , 19.02.2016 , 13:52:51 , In BEARBEITUNG , Defilee 1: Modeschöpfer/innen der 1850er-1930er Jahre
+ -update status- ,   , 19.02.2016 , 13:52:58 , STORNIERT , DMI.DS.S15 TP1
+ -update status- ,   , 19.02.2016 , 13:53:15 , ERLEDIGT , DMI.DS.S15 TP1
+ -update status- ,   , 19.02.2016 , 13:54:59 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:55:00 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:55:01 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:55:02 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:55:22 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:55:50 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:55:56 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:56:03 , ERLEDIGT , Defilee 1: Modeschöpfer/innen der 1850er-1930er Jahre
+ -update status- ,   , 19.02.2016 , 13:56:06 , STORNIERT , DMI.DS.S15 THEORIE_MA_Design
+ -update status- ,   , 19.02.2016 , 13:56:10 , ANGEFORDERT , DMI.DS.S15 MODEGE1_1
+ -update status- ,   , 19.02.2016 , 13:56:11 , ANGEFORDERT , DMI.DS.S15 MODEGE1_1
+ -update status- ,   , 19.02.2016 , 13:56:13 , STORNIERT , DMI.DS.S15 MODEGE1_1
+ -update status- ,   , 19.02.2016 , 13:56:15 , STORNIERT , DMI.DS.W15 TW
+ -update status- ,   , 19.02.2016 , 13:56:16 , In BEARBEITUNG , DMI.DS.S15 BDTK
+ -update status- ,   , 19.02.2016 , 13:56:17 , STORNIERT , DMI.DS.S15 BDTK
+ -update status- ,   , 19.02.2016 , 13:56:19 , ANGEFORDERT , DMI.DS.W15 TT1
+ -update status- ,   , 19.02.2016 , 13:56:21 , In BEARBEITUNG , DMI.DS.W15 TT1
+ -update status- ,   , 19.02.2016 , 13:56:22 , ANGEFORDERT , DMI.DS.W15 TT1
+ -update status- ,   , 19.02.2016 , 13:56:24 , In BEARBEITUNG , DMI.DS.W15 TT1
+ -update status- ,   , 19.02.2016 , 13:56:27 , ERLEDIGT , DMI.DS.S15 PC
+ -update status- ,   , 19.02.2016 , 13:56:28 , ERLEDIGT , DMI.DS.S15 TV
+ -update status- ,   , 19.02.2016 , 13:56:29 , ERLEDIGT , DMI.DS.S15 TC
+ -update status- ,   , 19.02.2016 , 13:56:31 , In BEARBEITUNG , DMI.DS.S15 MM
+ -update status- ,   , 19.02.2016 , 13:56:33 , ERLEDIGT , DMI.DS.S15 MM
+ -update status- ,   , 19.02.2016 , 13:56:35 , ERLEDIGT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:56:36 , ERLEDIGT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:56:36 , ERLEDIGT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 13:59:11 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:33:55 , GELÖSCHT , DMI.DS.S15 MM
+ -update status- ,   , 19.02.2016 , 14:43:07 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:08 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:08 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:09 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:10 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:11 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:12 , In BEARBEITUNG , DMI.DS.S15 MM
+ -update status- ,   , 19.02.2016 , 14:43:12 , ANGEFORDERT , DMI.DS.S15 MM
+ -update status- ,   , 19.02.2016 , 14:43:12 , STORNIERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:27 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:36 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:40 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:41 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:42 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:42 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:43:43 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:44:24 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:44:26 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:44:27 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:44:28 , In BEARBEITUNG , DMI.MD.W15 MATHE1
+ -update status- ,   , 19.02.2016 , 14:44:29 , In BEARBEITUNG , DMI.MD.W15_A DSIG
+ -update status- ,   , 19.02.2016 , 14:44:30 , In BEARBEITUNG , DMI.MD.W15 MATHE2
+ -update status- ,   , 19.02.2016 , 14:44:32 , ERLEDIGT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:44:33 , ERLEDIGT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:44:34 , ERLEDIGT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:44:35 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:45:34 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:45:34 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:45:35 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:45:35 , ANGEFORDERT , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:45:38 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:45:39 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -update status- ,   , 19.02.2016 , 14:45:50 , In BEARBEITUNG , DMI.DS.W15 TP2
+ -insert new   - , Werner Welte , 16.03.2016 , 15:31:58 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:31:59 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:00 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:02 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:02 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:08 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:08 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:57 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:57 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:58 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:32:59 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:38:37 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:38:38 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 15:38:39 , STORNIERT , LS012
+ -insert new   - , Werner Welte , 16.03.2016 , 15:38:58 , ANGEFORDERT ,  xx 
+ -update status- , Werner Welte , 16.03.2016 , 15:39:03 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:05 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:05 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:05 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:06 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:06 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:07 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:07 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:08 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:08 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:08 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:09 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:09 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 15:39:11 , STORNIERT ,  xx
+ -insert new   - , Werner Welte , 16.03.2016 , 16:15:58 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:01 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:02 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:09 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 16:16:10 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 16:16:11 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:11 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:31 , ANGEFORDERT , ER1
+ -update status- , Werner Welte , 16.03.2016 , 16:16:32 , ANGEFORDERT , TEST
+ -update status- , Werner Welte , 16.03.2016 , 16:16:33 , ANGEFORDERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 16:16:33 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:34 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:34 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:35 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:36 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:36 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:37 , STORNIERT , LS012
+ -update status- , Werner Welte , 16.03.2016 , 16:16:37 , STORNIERT , TEST
+ -update status- , Werner Welte , 16.03.2016 , 16:16:38 , STORNIERT , ER1
+ -update status- , Werner Welte , 16.03.2016 , 16:16:41 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:41 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:42 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:43 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:44 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:44 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:45 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:46 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:48 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:49 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:50 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:51 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:53 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:54 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:16:54 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:55 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:56 , ANGEFORDERT , TEST
+ -update status- , Werner Welte , 16.03.2016 , 16:16:57 , STORNIERT , TEST
+ -update status- , Werner Welte , 16.03.2016 , 16:16:57 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:58 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:16:59 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:00 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:01 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:01 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:02 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:03 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:05 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:05 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:17:11 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:12 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:17:13 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:17:13 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:14 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:15 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:34 , ANGEFORDERT , ER1
+ -update status- , Werner Welte , 16.03.2016 , 16:17:35 , STORNIERT , ER1
+ -update status- , Werner Welte , 16.03.2016 , 16:17:36 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:37 , ANGEFORDERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:38 , STORNIERT , ca fasd
+ -update status- , Werner Welte , 16.03.2016 , 16:17:38 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:17:40 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:17:40 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:17:41 , STORNIERT ,  xx
+ -update status- , Werner Welte , 16.03.2016 , 16:23:05 , GELÖSCHT , 
+ -update status- , Werner Welte , 16.03.2016 , 16:27:53 , In BEARBEITUNG , M 9.1: Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:27:54 , In BEARBEITUNG , M 9.1: Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:27:55 , In BEARBEITUNG , M 18
+ -update status- , Werner Welte , 16.03.2016 , 16:27:58 , ANGEFORDERT , M 18
+ -update status- , Werner Welte , 16.03.2016 , 16:28:00 , In BEARBEITUNG , M 9.1: Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:28:15 , In BEARBEITUNG , M 9.1: Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:28:17 , In BEARBEITUNG , M 9.1: Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:28:40 , In BEARBEITUNG , M 9.1: Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:28:41 , In BEARBEITUNG , M 9.1 Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:28:42 , In BEARBEITUNG , M 9.1 Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:28:46 , ANGEFORDERT , M 9.1 Beratung
+ -update status- , Werner Welte , 16.03.2016 , 16:28:51 , In BEARBEITUNG , E7-WP3 WPP3
+ -update status- , Werner Welte , 16.03.2016 , 16:28:53 , In BEARBEITUNG , E7-WP3 WPP3
+ -update status- , Werner Welte , 16.03.2016 , 16:28:53 , In BEARBEITUNG , TM 2 sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:28:54 , In BEARBEITUNG , TM 2 sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:28:55 , ANGEFORDERT , TM 2 sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:28:56 , In BEARBEITUNG , LB_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:28:57 , ANGEFORDERT , LB_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:28:58 , In BEARBEITUNG , TM1_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:28:59 , ANGEFORDERT , TM1_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:29:00 , In BEARBEITUNG , E2b-PR2/Programmieren 2
+ -update status- , Werner Welte , 16.03.2016 , 16:29:01 , ANGEFORDERT , E2b-PR2/Programmieren 2
+ -update status- , Werner Welte , 16.03.2016 , 16:29:01 , In BEARBEITUNG , TI..IN.S15 NMG Rsb
+ -update status- , Werner Welte , 16.03.2016 , 16:29:03 , ANGEFORDERT , TI..IN.S15 NMG Rsb
+ -update status- , Werner Welte , 16.03.2016 , 16:29:30 , ANGEFORDERT , TI..IN.S15 NMG Rsb
+ -update status- , Werner Welte , 16.03.2016 , 16:29:32 , In BEARBEITUNG , E7-WP3 WPP3
+ -update status- , Werner Welte , 16.03.2016 , 16:29:34 , ERLEDIGT , E7-WP3 WPP3
+ -update status- , Werner Welte , 16.03.2016 , 16:29:54 , ANGEFORDERT , E7-WP3 WPP3
+ -update status- , Werner Welte , 16.03.2016 , 16:30:07 , In BEARBEITUNG , E7-WP3 WPP3
+ -update status- , Werner Welte , 16.03.2016 , 16:30:08 , In BEARBEITUNG , TM 2 sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:30:09 , In BEARBEITUNG , LB_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:30:09 , In BEARBEITUNG , TM1_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:30:10 , In BEARBEITUNG , E2b-PR2/Programmieren 2
+ -update status- , Werner Welte , 16.03.2016 , 16:30:11 , In BEARBEITUNG , TI..IN.S15 NMG Rsb
+ -update status- , Werner Welte , 16.03.2016 , 16:30:12 , ANGEFORDERT , TI..IN.S15 NMG Rsb
+ -update status- , Werner Welte , 16.03.2016 , 16:30:13 , ANGEFORDERT , E2b-PR2/Programmieren 2
+ -update status- , Werner Welte , 16.03.2016 , 16:30:13 , ANGEFORDERT , TM1_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:30:14 , ANGEFORDERT , LB_sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:30:14 , ANGEFORDERT , TM 2 sU KSE
+ -update status- , Werner Welte , 16.03.2016 , 16:30:15 , ANGEFORDERT , E7-WP3 WPP3
+ -update status- , Werner Welte , 16.03.2016 , 16:30:20 , In BEARBEITUNG , SPIM 
+ -update status- , Werner Welte , 16.03.2016 , 16:30:21 , In BEARBEITUNG , SPIM 
+ -update status- , Werner Welte , 16.03.2016 , 16:30:41 , In BEARBEITUNG , SPIM 
+ -update status- , Werner Welte , 16.03.2016 , 16:30:42 , In BEARBEITUNG , SPIM Adlg
+ -update status- , Werner Welte , 16.03.2016 , 16:30:43 , In BEARBEITUNG , SPIM Adlg
+ -update status- , Werner Welte , 16.03.2016 , 16:30:43 , ANGEFORDERT , SPIM Adlg
+ -insert new   - , Werner Welte , 16.03.2016 , 16:32:58 , ANGEFORDERT , ab+%26+bc+%2B%2B
+ -update status- , Werner Welte , 16.03.2016 , 16:33:02 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:03 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:04 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:05 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:05 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:06 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:06 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:06 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:07 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:17 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:17 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:18 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:18 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:19 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:19 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:20 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:20 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:33:21 , STORNIERT , ab & bc ++
+ -insert new   - , Werner Welte , 16.03.2016 , 16:35:47 , ANGEFORDERT , ab%20%26%20bc%20%2B%2B%20xx
+ -update status- , Werner Welte , 16.03.2016 , 16:35:52 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:35:53 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:37:44 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:37:47 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:37:49 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:37:55 , STORNIERT , ab & bc ++ xx
+ -insert new   - , Werner Welte , 16.03.2016 , 16:39:55 , ANGEFORDERT , w
+ -insert new   - , Werner Welte , 16.03.2016 , 16:40:23 , ANGEFORDERT , ab+&+bc++++xx
+ -update status- , Werner Welte , 16.03.2016 , 16:40:27 , STORNIERT , ab 
+ -update status- , Werner Welte , 16.03.2016 , 16:40:28 , STORNIERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:29 , ANGEFORDERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:32 , STORNIERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:33 , ANGEFORDERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:34 , STORNIERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:35 , ANGEFORDERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:36 , STORNIERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:37 , ANGEFORDERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:37 , STORNIERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:38 , ANGEFORDERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:39 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:40:40 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:40:41 , STORNIERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:47 , ANGEFORDERT , w
+ -update status- , Werner Welte , 16.03.2016 , 16:40:47 , STORNIERT , w
+ -insert new   - , Werner Welte , 16.03.2016 , 16:41:19 , ANGEFORDERT , xx++++33+%+&+ABC+#%C3%A4+()+XX
+ -update status- , Werner Welte , 16.03.2016 , 16:41:30 , STORNIERT , xx    33 % 
+ -update status- , Werner Welte , 16.03.2016 , 16:41:35 , STORNIERT , ab 
+ -update status- , Werner Welte , 16.03.2016 , 16:41:36 , STORNIERT , ab 
+ -update status- , Werner Welte , 16.03.2016 , 16:41:36 , STORNIERT , xx    33 % 
+ -update status- , Werner Welte , 16.03.2016 , 16:42:31 , STORNIERT , xx    33 % 
+ -update status- , Werner Welte , 16.03.2016 , 16:42:33 , STORNIERT , ab 
+ -update status- , Werner Welte , 16.03.2016 , 16:42:34 , STORNIERT , ab 
+ -update status- , Werner Welte , 16.03.2016 , 16:42:51 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:42:52 , STORNIERT , ab & bc ++ xx
+ -update status- , Werner Welte , 16.03.2016 , 16:42:52 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:42:53 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:43:24 , STORNIERT , ab & bc ++
+ -update status- , Werner Welte , 16.03.2016 , 16:43:25 , STORNIERT , ab & bc ++
+ -insert new   - , Werner Welte , 16.03.2016 , 16:43:53 , ANGEFORDERT , ##123+&
+ -update status- , Werner Welte , 16.03.2016 , 16:43:54 , STORNIERT , 
+ -update status- , Werner Welte , 16.03.2016 , 16:44:54 , STORNIERT , 
+ -update status- , Werner Welte , 16.03.2016 , 16:44:54 , STORNIERT , 
+ -update status- , Werner Welte , 16.03.2016 , 16:44:54 , STORNIERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:46:26 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:48:59 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:49:48 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:50:02 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:52:15 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:52:16 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:52:18 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:53:17 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:53:18 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:53:19 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:54:06 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:54:22 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:54:24 , ANGEFORDERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 16:55:02 , ANGEFORDERT , %2523%2523%252B%252B%252B%252B%2526%252B%2528%2529%2522%25C2%25A7%25221%2521%2527
+ -update status- , Werner Welte , 16.03.2016 , 16:55:10 , STORNIERT , %23%23%2B%2B%2B%2B%26%2B%28%29%22%C2%A7%221%21%27
+ -update status- , Werner Welte , 16.03.2016 , 16:55:11 , STORNIERT , %23%23%2B%2B%2B%2B%26%2B%28%29%22%C2%A7%221%21%27
+ -update status- , Werner Welte , 16.03.2016 , 16:55:12 , STORNIERT , %23%23%2B%2B%2B%2B%26%2B%28%29%22%C2%A7%221%21%27
+ -update status- , Werner Welte , 16.03.2016 , 16:55:15 , STORNIERT , %23%23%2B%2B%2B%2B%26%2B%28%29%22%C2%A7%221%21%27
+ -update status- , Werner Welte , 16.03.2016 , 16:55:16 , STORNIERT , %23%23%2B%2B%2B%2B%26%2B%28%29%22%C2%A7%221%21%27
+ -update status- , Werner Welte , 16.03.2016 , 16:55:16 , STORNIERT , 
+ -update status- , Werner Welte , 16.03.2016 , 16:55:21 , ANGEFORDERT , 
+ -update status- , Werner Welte , 16.03.2016 , 16:55:22 , STORNIERT , 
+ -insert new   - , Werner Welte , 16.03.2016 , 17:00:14 , ANGEFORDERT , 1+%252B%252B+%252A%252A+%2526+%255Basdf%255D+%252F+%255C+%2540
+ -update status- , Werner Welte , 16.03.2016 , 17:00:19 , STORNIERT , 1 %2B%2B %2A%2A %26 %5Basdf%5D %2F %5C %40
+ -update status- , Werner Welte , 16.03.2016 , 17:00:20 , STORNIERT , 1 %2B%2B %2A%2A %26 %5Basdf%5D %2F %5C %40
+ -update status- , Werner Welte , 16.03.2016 , 17:00:24 , STORNIERT , 1 %2B%2B %2A%2A %26 %5Basdf%5D %2F %5C %40
+ -update status- , Werner Welte , 16.03.2016 , 17:02:09 , STORNIERT , 1 %2B%2B %2A%2A %26 %5Basdf%5D %2F %5C %40
+ -insert new   - , Werner Welte , 16.03.2016 , 17:02:36 , ANGEFORDERT , 1+2B2B+2A2A+26+5Basdf5D+2F+5C+40
+ -update status- , Werner Welte , 16.03.2016 , 17:02:40 , STORNIERT , 1 2B2B 2A2A 26 5Basdf5D 2F 5C 40
+ -update status- , Werner Welte , 16.03.2016 , 17:02:41 , STORNIERT , 1 2B2B 2A2A 26 5Basdf5D 2F 5C 40
+ -update status- , Werner Welte , 16.03.2016 , 17:02:42 , STORNIERT , 1 %2B%2B %2A%2A %26 %5Basdf%5D %2F %5C %40
+ -update status- , Werner Welte , 16.03.2016 , 17:02:42 , STORNIERT , %23%23%2B%2B%2B%2B%26%2B%28%29%22%C2%A7%221%21%27
+ -update status- , Werner Welte , 16.03.2016 , 17:02:43 , ANGEFORDERT , 
+ -update status- , Werner Welte , 16.03.2016 , 17:02:44 , STORNIERT , 
+ -update status- , Werner Welte , 16.03.2016 , 17:02:45 , STORNIERT , 1 2B2B 2A2A 26 5Basdf5D 2F 5C 40
+ -update status- , Werner Welte , 16.03.2016 , 17:02:49 , STORNIERT , 1 2B2B 2A2A 26 5Basdf5D 2F 5C 40
+ -insert new   - , Werner Welte , 16.03.2016 , 17:03:27 , ANGEFORDERT , 12B2B2A2A265Basdf5D2F5C40
+ -update status- , Werner Welte , 16.03.2016 , 17:03:31 , STORNIERT , 12B2B2A2A265Basdf5D2F5C40
+ -update status- , Werner Welte , 16.03.2016 , 17:03:32 , ANGEFORDERT , 12B2B2A2A265Basdf5D2F5C40
+ -update status- , Werner Welte , 16.03.2016 , 17:03:33 , STORNIERT , 12B2B2A2A265Basdf5D2F5C40
+ -update status- , Werner Welte , 16.03.2016 , 17:03:42 , ANGEFORDERT , 12B2B2A2A265Basdf5D2F5C40
+ -insert new   - , Werner Welte , 16.03.2016 , 17:04:17 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:21 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:22 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:33 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:34 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:35 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:35 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:36 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:37 , STORNIERT , 12B2B2A2A265Basdf5D2F5C40
+ -update status- , Werner Welte , 16.03.2016 , 17:04:38 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:39 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:40 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:42 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:42 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:45 , STORNIERT , 
+ -update status- , Werner Welte , 16.03.2016 , 17:04:46 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:47 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:48 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:57 , ANGEFORDERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:58 , STORNIERT , 1   u [asdf]  \ at
+ -update status- , Werner Welte , 16.03.2016 , 17:04:59 , ANGEFORDERT , 12B2B2A2A265Basdf5D2F5C40
+ -update status- , Werner Welte , 16.03.2016 , 17:04:59 , STORNIERT , 1 2B2B 2A2A 26 5Basdf5D 2F 5C 40
+ -update status- , Werner Welte , 16.03.2016 , 17:06:00 , STORNIERT , 1 2B2B 2A2A 26 5Basdf5D 2F 5C 40
+ -update status- , Werner Welte , 16.03.2016 , 17:06:13 , STORNIERT , 1 2B2B 2A2A 26 5Basdf5D 2F 5C 40

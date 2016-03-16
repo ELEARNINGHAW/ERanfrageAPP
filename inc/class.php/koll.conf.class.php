@@ -16,7 +16,6 @@ var $ansprechpartner;
 
 function Config()
 {  
-  
 #if ( $_SESSION['DA'][ 'targetSem' ] ==  1 ) { $this->sem = 'WS15/16'; } 
 #else                                        { $this->sem = 'WS15/16'; } 	
 
@@ -157,7 +156,7 @@ $this->ansprechpartner['XX'] = array ( 'name' => 'Heiko Thämlitz'    , 'raum'  
   
   $this->emil_URL         = "http://www.elearning.haw-hamburg.de";
   # $emil_URL      = "http://localhost/moodle";
-  # $emil_URL      = "http://lernserver.el.haw-hamburg.de/moodle";
+  #$emil_URL      = "http://lernserver.el.haw-hamburg.de/moodle";
   # $emil_URL      = "http://www.emil2-test.ls.haw-hamburg.de";
   
   $this->status = array

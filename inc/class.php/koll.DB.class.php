@@ -94,7 +94,7 @@ class KollDB
  		    ";
     		$logEntry = " -update status- , " .$US['ufirstname'] ." " .$US['ulastname'] ." , " .date("d.m.Y")." , ". date("H:i:s")." , ". $this->status[$LR [ 'state' ]]['msg'] ." , ". $LR['cshortname']. "\r\n";
     		fwrite( $this->log , $logEntry );
-     #  die ($SQL);
+      # die ($SQL);
     		return  $this->db->exec($SQL );
 		}
 	}
@@ -263,5 +263,6 @@ class KollDB
 		else
 		 return false;
 	}
+  
 }
 ?>

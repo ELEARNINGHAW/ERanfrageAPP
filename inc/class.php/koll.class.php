@@ -17,16 +17,18 @@ class Koll
   
   function checkHost()
   {  
-	  if  ( isset ($_SERVER['HTTP_REFERER' ] ) )                
+	if  ( isset ($_SERVER['HTTP_REFERER' ] ) )                
     {   $host1 = explode('/', $_SERVER['HTTP_REFERER']);  
         if ( ! in_array( $host1[2], $this->ok_host ) )  {  die("<div style='text-align:center;'><h1>ACCESS ERROR<h1><h3>Unzul&auml;ssiger Zugriff!</h3><a href=\"javascript:window.back()\">Zur&uuml;ck</a></div>"); }
     }
-    else
-    {  if( $_SERVER['SERVER_NAME' ] != 'localhost' )
-      {      
-         header("Location:index.html");
-         die("<div style='text-align:center;'><h1>ACCESS ERROR<h1><h3>Unzul&auml;ssiger Zugriff!</h3><a href=\"javascript:window.back()\">Zur&uuml;ck</a></div>"); 
-      }
+    else if( $_SERVER[ 'REMOTE_ADDR' ] ==  '127.0.0.1' )
+	{
+				# conjob mail
+	}
+    else if( $_SERVER['SERVER_NAME' ] != 'localhost' )
+    {      
+        header("Location:index.html");
+        die("<div style='text-align:center;'><h1>ACCESS ERROR<h1><h3>Unzul&auml;ssiger Zugriff!</h3><a href=\"javascript:window.back()\">Zur&uuml;ck</a></div>"); 
     }
   }
 	
@@ -72,6 +74,15 @@ class Koll
    $this->getLRState( $db );
   }
 
+  function getLRState($db) # ermittelt den EMIL-Raum Status
+  {
+    if    ( isset( $_SESSION[ 'LR' ] ) AND  $_SESSION[ 'LR' ][ 'cid' ] != '-1' && $db->isLRInList( $_SESSION[ 'LR' ] )  )   
+    { $_SESSION[ 'LR' ]            = $db->getLRData( $_SESSION[ 'LR' ] ); }
+    else                                                                                     
+    { $_SESSION[ 'LR' ][ 'state' ] = 0; }
+  }
+ 
+  
   function getLRFak( $LR2 )
   {
       if ( isset( $this->kukat[ $LR2[ "ccategory" ] ] ) )
@@ -87,14 +98,7 @@ class Koll
       }
   }
   
-  function getLRState($db) # ermittelt den EMIL-Raum Status
-  {
-    if    (  $_SESSION[ 'LR' ][ 'cid' ] != '-1' && $db->isLRInList( $_SESSION[ 'LR' ] )  )   
-    { $_SESSION[ 'LR' ]            = $db->getLRData( $_SESSION[ 'LR' ] ); }
-    else                                                                                     
-    { $_SESSION[ 'LR' ][ 'state' ] = 0; }
-  }
- 
+
  
 	function actionHandler( $db)
 	{   
@@ -181,10 +185,10 @@ class Koll
       $error[ 'rn'  ] = false;
       $error[ 'dbl' ] = false;
       
-      if (isset( $_GET[ 'dozkurzname'            ])) { $LR[ 'ukurzel'    ] = $_GET[ 'dozkurzname'      ]      ; } else {$LR[ 'ukurzel'    ] = '';} 
-      if (isset( $_GET[ 'lernraumname'           ])) { $LR[ 'cfullname'  ] = $_GET[ 'lernraumname'     ]      ; } else {$LR[ 'cfullname'  ] = '';}   
-      if (isset( $_GET[ 'lernraumkurzname'       ])) { $LR[ 'cshortname' ] = $_GET[ 'lernraumkurzname' ]      ; } else {$LR[ 'cshortname' ] = '';} 
-      if (isset( $_GET[ 'servername'             ])) { $LR[ 'servername' ] = $_GET[ 'servername'       ]      ; } else {$LR[ 'servername' ] = '';} 
+      if (isset( $_GET[ 'dozkurzname'            ])) { $LR[ 'ukurzel'    ] = trim( $_GET[ 'dozkurzname'      ] )      ; } else {$LR[ 'ukurzel'    ] = '';} 
+      if (isset( $_GET[ 'lernraumname'           ])) { $LR[ 'cfullname'  ] = trim( $_GET[ 'lernraumname'     ] )      ; } else {$LR[ 'cfullname'  ] = '';}   
+      if (isset( $_GET[ 'lernraumkurzname'       ])) { $LR[ 'cshortname' ] = $this->wwUrlEncode(trim( $_GET[ 'lernraumkurzname' ] ))      ; } else {$LR[ 'cshortname' ] = '';} 
+      if (isset( $_GET[ 'servername'             ])) { $LR[ 'servername' ] = trim( $_GET[ 'servername'       ] )      ; } else {$LR[ 'servername' ] = '';} 
       if (isset( $_SESSION[ 'US' ][ 'ufakultaet' ])) { $LR[ 'ccategory'  ] = $_SESSION[ 'US' ][ 'ufakultaet' ]; } else {$LR[ 'ccategory'  ] = '';}    
       if (isset( $_GET[ 'zusatzinformationen'    ])) { $LR[ 'info'       ] = "Sprache:" . $_GET[ 'sprache' ] . ":\n" . $_GET[ 'zusatzinformationen'];  } 
       else                                           { $LR[ 'info'       ] = "Sprache:" . $_GET[ 'sprache' ] . "";} 
@@ -225,11 +229,11 @@ class Koll
     }
   }
   
-  function sendAdminEmails( $db )
+  function sendAdminEmails( $db, $render )
   {
     $statusliste = '';
     $statusliste = $db->getERStatusListe();
-
+    
     foreach ($this->status as $snr => $s )                                      # INIT ansp_stat[][] = 0  
     {  foreach ($this->ansprechpartner as $dshort => $d )  
        { $ansp_stat[ $dshort ][ $snr ] = 0;   
@@ -241,7 +245,7 @@ class Koll
       { $ansp_stat[ $this->dep[ $stat['udepartment'] ]['anpartner']  ][$stat['state']]  +=   $stat['COUNT (*)'];
       }
       else  ## -- Alle nicht zuördenbaren Departments werden als XX gespeichert 
-      { $ansp_stat[ 'XX'  ][$stat['state']]  +=   $stat['COUNT (*)'];
+      { $ansp_stat[ 'XX' ][ $stat[ 'state' ] ]  +=   $stat[ 'COUNT (*)' ];
       }
     }
  
@@ -267,7 +271,9 @@ class Koll
         $message .= "http://www.elearning.haw-hamburg.de/course/view.php?id=7809  \r\n\r\n";
 
         $to =  $this->ansprechpartner[ $ansp ][ 'email' ]; 
-        
+        #deb($to);
+        echo ($subject)."\n\r";
+        #deb($message);
 		    $this->sendAMail( $to, $subject, $message );
        }
     }
@@ -282,7 +288,7 @@ class Koll
  
     $bcc      = 'werner.welte@haw-hamburg.de' ;
     #$from     = 'EMIL-noreply@haw-hamburg.de' ;
-    #$rpto     = 'werner.welte@haw-hamburg.de';
+    $rpto     = 'werner.welte@haw-hamburg.de';
 
     $header  = 'From: '         . $from . "\r\n" ;
     $header .= 'Reply-To: '     . $rpto . "\r\n" ;
@@ -307,5 +313,13 @@ class Koll
       $linkTxt = "ERROR: Mail nicht versendet! ". $subject ;
     }
   }
+  
+  function wwUrlEncode($string) {
+    $entities        = array( '!'  , '*'  , "'" , '(' , ')' , ';' , ':'  , '@'  , '&' , '='  , '+' , '$' , ',' , '/' , '?' , '%'  , '#' , '[' , ']' );
+    $replacements    = array( ''   , ''   , ''  , '(' , ')' , '' , ''  , 'at',  'u' , ''   , '' , '' , ',' , ''  , ''  , '',  '' , '[' , ']' );
+    #echo  "<br>".$string."<br>";
+    return  str_replace($entities, $replacements, ($string));
+}
+  
 }
 ?>

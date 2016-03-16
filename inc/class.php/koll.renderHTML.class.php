@@ -297,6 +297,8 @@ function getAnsprechpartnerID( $department )
 
 function getBlockHTMLHeader()
 {
+ 
+
 return '
 <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 <head>
