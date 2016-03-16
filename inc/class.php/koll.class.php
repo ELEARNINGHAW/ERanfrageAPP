@@ -97,9 +97,7 @@ class Koll
       { $LR[ "fak" ] =  '00' ;
       }
   }
-  
 
- 
 	function actionHandler( $db)
 	{   
     $_SESSION[ 'NEWLR' ][ 'error' ][ 'rkn' ] = false;
